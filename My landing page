@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Boss Academy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-yellow-200 font-sans">
+
+  <!-- Header -->
+  <header class="bg-black/90 py-6 px-8 flex justify-between items-center border-b border-aqua-400">
+    <h1 class="text-2xl font-bold text-aqua-400">Digital Boss Academy</h1>
+    <nav class="space-x-6">
+      <a href="#about" class="hover:text-aqua-300">About</a>
+      <a href="#services" class="hover:text-aqua-300">Services</a>
+      <a href="#testimonials" class="hover:text-aqua-300">Testimonials</a>
+      <a href="#shop" class="hover:text-aqua-300">Shop</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative text-center py-20 px-6 bg-gradient-to-r from-black to-gray-900">
+    <h2 class="text-4xl md:text-5xl font-bold text-yellow-200 mb-6">
+      Build Your Digital Success with Confidence
+    </h2>
+    <p class="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-8">
+      Helping entrepreneurs and small businesses grow online with smart digital marketing strategies.
+    </p>
+    <a href="https://yourstanstorelink.stan.store" target="_blank" 
+       class="bg-aqua-400 text-black font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-aqua-300 transition">
+      Shop My Stan Store
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-8 bg-black">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <!-- Text -->
+      <div>
+        <h3 class="text-3xl font-bold text-aqua-400 mb-6">About Me</h3>
+        <p class="text-gray-300">
+          I know what it’s like to juggle family, life, and business while trying to build something bigger. 
+          That’s why I created Digital Boss Academy — to help entrepreneurs just like you find clarity, confidence, and growth through digital marketing. 
+          My mission is to make online growth simple, effective, and empowering.
+        </p>
+      </div>
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="woman-tablet.jpg" alt="African American woman working on tablet" class="rounded-2xl shadow-lg w-full md:w-4/5">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-8 bg-gray-900">
+    <h3 class="text-3xl font-bold text-center text-aqua-400 mb-10">What I Offer</h3>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <!-- Image -->
+      <div class="flex justify-center order-2 md:order-1">
+        <img src="woman-computer.jpg" alt="African American woman working on computer" class="rounded-2xl shadow-lg w-full md:w-4/5">
+      </div>
+      <!-- Services List -->
+      <div class="grid gap-6 order-1 md:order-2">
+        <div class="bg-black p-6 rounded-2xl shadow-lg border border-aqua-400">
+          <h4 class="text-xl font-semibold text-yellow-200 mb-2">Social Media Marketing</h4>
+          <p class="text-gray-300">Engaging strategies to grow your brand and connect with your ideal audience.</p>
+        </div>
+        <div class="bg-black p-6 rounded-2xl shadow-lg border border-aqua-400">
+          <h4 class="text-xl font-semibold text-yellow-200 mb-2">AI-Powered Content</h4>
+          <p class="text-gray-300">Smarter content creation that saves time and builds authority in your space.</p>
+        </div>
+        <div class="bg-black p-6 rounded-2xl shadow-lg border border-aqua-400">
+          <h4 class="text-xl font-semibold text-yellow-200 mb-2">Email Marketing & Automation</h4>
+          <p class="text-gray-300">Automated campaigns that nurture leads and increase conversions effortlessly.</p>
+        </div>
+        <a href="https://yourstanstorelink.stan.store" target="_blank" 
+           class="mt-6 inline-block bg-aqua-400 text-black font-semibold px-6 py-3 rounded-lg hover:bg-aqua-300">
+          See My Services on Stan
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 px-8 bg-black">
+    <h3 class="text-3xl font-bold text-center text-aqua-400 mb-10">What Clients Say</h3>
+    <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+      <div class="bg-gray-900 p-6 rounded-2xl shadow-lg border border-aqua-400">
+        <p class="text-gray-300 italic">“She made digital marketing so simple and gave me the confidence to launch my business online.”</p>
+        <h4 class="text-yellow-200 mt-4 font-semibold">— Client Name</h4>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-2xl shadow-lg border border-aqua-400">
+        <p class="text-gray-300 italic">“I saw growth in my online presence within weeks. Highly recommend her services!”</p>
+        <h4 class="text-yellow-200 mt-4 font-semibold">— Client Name</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Freebie / Opt-in Section -->
+  <section id="shop" class="py-16 px-8 bg-yellow-200 text-black text-center">
+    <h3 class="text-3xl font-bold mb-6">Get Your Free Digital Marketing Starter Guide</h3>
+    <p class="max-w-2xl mx-auto mb-8">
+      Learn the 5 steps to creating a powerful online presence — completely free.
+    </p>
+    <a href="https://yourstanstorelink.stan.store" target="_blank" 
+       class="bg-black text-yellow-200 font-semibold px-8 py-3 rounded-lg hover:bg-gray-900">
+      Claim It Free on Stan
+    </a>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 px-8 text-center bg-black">
+    <h3 class="text-3xl font-bold text-aqua-400 mb-6">Work With Me</h3>
+    <p class="max-w-2xl mx-auto text-gray-300 mb-8">
+      Ready to grow your business online? Let’s connect and build a strategy that works for you.
+    </p>
+    <a href="https://yourstanstorelink.stan.store" target="_blank" 
+       class="bg-aqua-400 text-black font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-aqua-300 transition">
+      Book Through Stan Store
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black/90 text-center py-6 border-t border-aqua-400">
+    <p class="text-gray-400">&copy; 2025 Digital Boss Academy. All rights reserved.</p>
+    <div class="flex justify-center space-x-4 mt-3">
+      <a href="#" class="hover:text-aqua-300">Facebook</a>
+      <a href="#" class="hover:text-aqua-300">Instagram</a>
+      <a href="#" class="hover:text-aqua-300">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
